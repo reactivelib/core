@@ -1,0 +1,23 @@
+{
+  "name": "@reactivelib/core",
+  "version": "1.0.0",
+  "description": "Contains generally usable functions and data structures used by other ReactiveLib packages.",
+  "main": "index.js",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "homepage": "https://reactivechart.com",
+  "author": {
+    "email": "christoph@rodak.li",
+    "name": "Christoph Rodak"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactivelib/core.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.44"
+  }
+}
