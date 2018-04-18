@@ -1,6 +1,6 @@
 {
   "name": "@reactivelib/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Contains generally usable functions and data structures used by other ReactiveLib packages.",
   "main": "index.js",
   "dependencies": {
