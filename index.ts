@@ -3,17 +3,19 @@
  */
 
 import * as hashMod from './src/hash';
+import * as funcMod from './src/func';
+import * as extendMod from './src/extend';
+import * as objectMod from './src/object';
+
 export {IIterable, IIterator} from './src/iterator';
 export {cancelAnimation, requestAnimation} from './src/timer';
 export {IOptional, optional} from './src/optional';
 export {dummy} from './src/func';
 export {Constructor, copyClass} from './src/mixin';
-import * as funcMod from './src/func';
+
 
 
 export {default as list, IListNode, IList } from './src/list';
-
-import * as extendMod from './src/extend';
 
 export const func = funcMod;
 
@@ -41,3 +43,5 @@ export namespace extend{
     export const missing = extendMod.missing;
     export const props = extendMod.properties;
 }
+
+export const object = objectMod;
